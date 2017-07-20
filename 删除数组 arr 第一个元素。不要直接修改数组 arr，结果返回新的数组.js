@@ -24,11 +24,11 @@ function curtail(arr){
 function curtail(arr){
     
     console.log(arr.filter(function(val,index,arr){
-        return index!==0;
+        return index !== 0;
     })) ;
     
     return  arr.filter(function(val,index,arr){
-        return index!==0;
+        return index !== 0;
     })
 
 }
@@ -54,8 +54,11 @@ function curtail(arr){
 
 function curtail(arr){
     var newArr= arr.concat();
+
     newArr.shift();
+    
     console.log(newArr);
+    
     return newArr;    
 }
 
